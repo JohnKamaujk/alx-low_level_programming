@@ -13,11 +13,12 @@ int set_bit(unsigned long int *n, unsigned int index)
 	if (index > 64)
 		return (-1);
 
-	power = 1
+	power = 1;
+
 	while (index > 0)
 	{
-		power *= 2
-		index--
+		power *= 2;
+		index--;
 	}
 
 	*n += power;

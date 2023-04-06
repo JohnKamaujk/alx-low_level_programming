@@ -17,7 +17,7 @@ void print_binary(unsigned long int n)
 	}
 
 	for (limit = n, moves = 0; (limit >>= 1) > 0; moves++)
-
+	;
 	for (; moves >= 0; moves--)
 	{
 		if ((n >> moves) & 1)

@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 	r = read(origin, content, 1024);
 	destination = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-	while (r > 0)
+	while (r > 0);
 	{
 		if (origin == -1 || r == -1)
 		{

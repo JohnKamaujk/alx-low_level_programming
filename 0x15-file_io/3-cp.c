@@ -13,7 +13,7 @@ void close_file(int fd);
  */
 char *create_content(char *file)
 {
-	char *content malloc(sizeof(char) * 1024);
+	char *content = malloc(sizeof(char) * 1024);
 
 	if (content == NULL)
 	{

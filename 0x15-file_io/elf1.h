@@ -4,7 +4,7 @@
 /*
  * File: elf.h
  * Auth: John K
- * Desc: 
+ * Desc: elf version 2
  */
 #include <elf.h>
 
@@ -107,4 +107,4 @@ void print_data(unsigned char *e_ident)
 	}
 }
 
-#endif 
+#endif

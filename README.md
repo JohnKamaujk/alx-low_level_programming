@@ -26,4 +26,4 @@ working in the C language. The specific list of projects contained follows:
 * [0x11. C - printf](https://github.com/JohnKamaujk/printf/tree/master)
 * [0x12. C - Singly linked lists](./0x11-singly_linked_lists)
 * [0x13. C - More singly linked lists](./0x13-more_singly_linked_lists)
-* [0x14. C - More singly linked lists](./0x14-bit_manipulation)
+* [0x14. C - Bit manipulation](./0x14-bit_manipulation)

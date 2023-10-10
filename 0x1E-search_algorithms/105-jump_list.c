@@ -22,8 +22,8 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 		return (NULL);
 
 	jump_step = sqrt(size);
-	*current = list;
-	*prev = NULL;
+	current = list;
+	prev = NULL;
 
 	while (current != NULL && current->n < value)
 	{

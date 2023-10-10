@@ -11,13 +11,15 @@
  */
 int advanced_binary_recursive(int *array, size_t low, size_t high, int value)
 {
+	size_t mid, i;
+
 	if (low > high)
 		return (-1);
 
-	size_t mid = low + (high - low) / 2;
+	mid = low + (high - low) / 2;
 
 	printf("Searching in array: ");
-	for (size_t i = low; i <= high; i++)
+	for (i = low; i <= high; i++)
 	{
 		printf("%d", array[i]);
 		if (i < high)
